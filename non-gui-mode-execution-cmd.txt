@@ -1,0 +1,3 @@
+
+
+jmeter –n –t load-model-test-v0.jmx -l load-test-15-june-2023\result.csv -j load-test-15-june-2023\jmeterLog.txt -e -o load-test-15-june-2023\htmlReport

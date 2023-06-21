@@ -1,0 +1,451 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1686848186253,605,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,382794,13972,5,5,null,0,80226,29
+1686848186253,71,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,53091,489,2,2,null,0,2,1
+1686848186254,71,open the application,200,OK,Thread Group 1-2,text,true,,53091,489,2,2,http://localhost/,32,0,1
+1686848197373,153,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,94757,2087,5,5,null,0,5602,1
+1686848199857,57,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-2,text,true,,49979,654,5,5,http://localhost/tables,26,0,1
+1686848203020,59,Open a table product cart (click on a table),200,OK,Thread Group 1-2,text,true,,44156,675,5,5,http://localhost/products/living-room-table7,34,0,0
+1686848203090,37,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-2,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,37,0,0
+1686848214237,149,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,91164,2137,5,5,null,0,659,1
+1686848214772,51,"Click ""Chairs"" tab",200,OK,Thread Group 1-2,text,true,,46129,654,5,5,http://localhost/chairs,28,0,1
+1686848214937,56,Open random chair,200,OK,Thread Group 1-2,text,true,,44413,671,5,5,http://localhost/products/ancient-chair3,35,0,0
+1686848215002,42,Add chair to cart,200,OK,Thread Group 1-2,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,42,0,0
+1686848226077,232,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,143782,9259,5,5,null,0,29757,26
+1686848229569,45,Open Cart,200,OK,Thread Group 1-2,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38955,652,5,5,http://localhost/cart,32,0,2
+1686848230635,39,"Click ""Place an order""",200,OK,Thread Group 1-2,text,true,,65515,885,5,5,http://localhost/checkout,37,0,0
+1686848230675,20,Fetch country-states,200,OK,Thread Group 1-2,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848255936,128,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-2,text,true,,36849,7089,5,5,http://localhost/thank-you,98,0,24
+1686848255936,98,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-2,text,true,,495,6348,5,5,http://localhost/checkout,98,0,24
+1686848256035,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-2,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848186069,671,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,383455,14044,5,5,null,0,82096,28
+1686848186069,110,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,53091,489,1,1,null,0,54,20
+1686848186119,110,open the application,200,OK,Thread Group 1-1,text,true,,53091,489,1,1,http://localhost/,64,0,20
+1686848197323,161,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,95252,2087,5,5,null,0,4599,1
+1686848199591,57,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-1,text,true,,49979,654,5,5,http://localhost/tables,23,0,1
+1686848201377,65,Open a table product cart (click on a table),200,OK,Thread Group 1-1,text,true,,44651,675,5,5,http://localhost/products/living-room-table8,29,0,0
+1686848202043,39,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-1,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,39,0,0
+1686848213092,171,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,91340,2137,5,5,null,0,1305,1
+1686848213978,69,"Click ""Chairs"" tab",200,OK,Thread Group 1-1,text,true,,46129,654,5,5,http://localhost/chairs,45,0,1
+1686848214393,60,Open random chair,200,OK,Thread Group 1-1,text,true,,44589,671,5,5,http://localhost/products/ancient-chair2,36,0,0
+1686848214526,42,Add chair to cart,200,OK,Thread Group 1-1,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,42,0,0
+1686848225666,229,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,143772,9331,5,5,null,0,31858,6
+1686848228041,61,Open Cart,200,OK,Thread Group 1-1,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38945,652,5,5,http://localhost/cart,51,0,2
+1686848230041,42,"Click ""Place an order""",200,OK,Thread Group 1-1,text,true,,65515,881,5,5,http://localhost/checkout,40,0,0
+1686848230084,20,Fetch country-states,200,OK,Thread Group 1-1,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848257646,106,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-1,text,true,,36849,7165,5,5,http://localhost/thank-you,77,0,4
+1686848257646,77,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-1,text,true,,495,6424,5,5,http://localhost/checkout,77,0,4
+1686848257723,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-1,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848186444,631,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,383354,14079,5,5,null,0,82322,11
+1686848186444,61,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,53091,489,3,3,null,0,3,2
+1686848186446,61,open the application,200,OK,Thread Group 1-3,text,true,,53091,489,3,3,http://localhost/,34,0,2
+1686848197571,170,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,95189,2087,5,5,null,0,4342,2
+1686848199013,57,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-3,text,true,,49979,654,5,5,http://localhost/tables,28,0,2
+1686848201815,74,Open a table product cart (click on a table),200,OK,Thread Group 1-3,text,true,,44588,675,5,5,http://localhost/products/living-room-table6,30,0,0
+1686848202043,39,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-3,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,39,0,0
+1686848213132,183,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,91304,2137,5,5,null,0,2953,2
+1686848215738,77,"Click ""Chairs"" tab",200,OK,Thread Group 1-3,text,true,,46129,654,5,5,http://localhost/chairs,47,0,2
+1686848216153,64,Open random chair,200,OK,Thread Group 1-3,text,true,,44553,671,5,5,http://localhost/products/ancient-chair4,42,0,0
+1686848216225,42,Add chair to cart,200,OK,Thread Group 1-3,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,42,0,0
+1686848227306,217,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,143770,9366,5,5,null,0,30792,5
+1686848229843,60,Open Cart,200,OK,Thread Group 1-3,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38946,652,5,5,http://localhost/cart,49,0,2
+1686848230432,37,"Click ""Place an order""",200,OK,Thread Group 1-3,text,true,,65512,881,5,5,http://localhost/checkout,35,0,0
+1686848230471,28,Fetch country-states,200,OK,Thread Group 1-3,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848258223,92,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-3,text,true,,36849,7200,5,5,http://localhost/thank-you,63,0,3
+1686848258223,63,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-3,text,true,,495,6459,5,5,http://localhost/checkout,63,0,3
+1686848258286,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-3,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848186644,575,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,383231,14203,5,5,null,0,83474,11
+1686848186644,61,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,53091,489,4,4,null,0,3,1
+1686848186646,61,open the application,200,OK,Thread Group 1-4,text,true,,53091,489,4,4,http://localhost/,30,0,1
+1686848197715,167,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,95038,2087,5,5,null,0,4201,1
+1686848199476,60,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-4,text,true,,49979,654,5,5,http://localhost/tables,32,0,1
+1686848201589,68,Open a table product cart (click on a table),200,OK,Thread Group 1-4,text,true,,44437,675,5,5,http://localhost/products/living-room-table5,34,0,0
+1686848202043,39,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-4,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,39,0,0
+1686848213145,143,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,91324,2137,5,5,null,0,1843,2
+1686848213395,61,"Click ""Chairs"" tab",200,OK,Thread Group 1-4,text,true,,46129,654,5,5,http://localhost/chairs,35,0,2
+1686848215040,51,Open random chair,200,OK,Thread Group 1-4,text,true,,44573,671,5,5,http://localhost/products/ancient-chair5,29,0,0
+1686848215100,31,Add chair to cart,200,OK,Thread Group 1-4,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,31,0,0
+1686848226146,204,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,143778,9490,5,5,null,0,33324,7
+1686848228535,49,Open Cart,200,OK,Thread Group 1-4,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,38,0,2
+1686848230556,37,"Click ""Place an order""",200,OK,Thread Group 1-4,text,true,,65514,885,5,5,http://localhost/checkout,33,0,0
+1686848230593,23,Fetch country-states,200,OK,Thread Group 1-4,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,23,0,0
+1686848259580,95,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-4,text,true,,36849,7320,5,5,http://localhost/thank-you,66,0,5
+1686848259580,66,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-4,text,true,,495,6579,5,5,http://localhost/checkout,66,0,5
+1686848259646,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-4,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848186839,658,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,383205,14250,5,5,null,0,89768,10
+1686848186839,70,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,53091,489,5,5,null,0,2,1
+1686848186840,70,open the application,200,OK,Thread Group 1-5,text,true,,53091,489,5,5,http://localhost/,33,0,1
+1686848197986,168,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,95271,2087,5,5,null,0,3929,0
+1686848199934,57,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-5,text,true,,49979,654,5,5,http://localhost/tables,26,0,0
+1686848201944,72,Open a table product cart (click on a table),200,OK,Thread Group 1-5,text,true,,44670,675,5,5,http://localhost/products/living-room-table4,35,0,0
+1686848202043,39,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-5,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,39,0,0
+1686848213155,177,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,91067,2137,5,5,null,0,2176,5
+1686848214690,79,"Click ""Chairs"" tab",200,OK,Thread Group 1-5,text,true,,46129,654,5,5,http://localhost/chairs,52,0,5
+1686848215401,58,Open random chair,200,OK,Thread Group 1-5,text,true,,44316,671,5,5,http://localhost/products/ancient-chair6,36,0,0
+1686848215468,40,Add chair to cart,200,OK,Thread Group 1-5,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,40,0,0
+1686848226513,243,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,143776,9537,5,5,null,0,39506,4
+1686848230391,40,Open Cart,200,OK,Thread Group 1-5,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,30,0,1
+1686848231473,59,"Click ""Place an order""",200,OK,Thread Group 1-5,text,true,,65512,885,5,5,http://localhost/checkout,46,0,0
+1686848231533,24,Fetch country-states,200,OK,Thread Group 1-5,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,24,0,0
+1686848266143,120,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-5,text,true,,36849,7367,5,5,http://localhost/thank-you,87,0,3
+1686848266143,87,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-5,text,true,,495,6626,5,5,http://localhost/checkout,87,0,3
+1686848266230,33,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-5,text,true,,36354,741,5,5,http://localhost/thank-you,25,0,0
+1686848268839,593,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,383476,14347,5,5,null,0,53342,8
+1686848268839,69,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,53091,489,5,5,null,0,1,2
+1686848268840,69,open the application,200,OK,Thread Group 1-1,text,true,,53091,489,5,5,http://localhost/,35,0,2
+1686848279996,157,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,95010,2087,5,5,null,0,2407,2
+1686848280660,59,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-1,text,true,,49979,654,5,5,http://localhost/tables,28,0,2
+1686848282451,65,Open a table product cart (click on a table),200,OK,Thread Group 1-1,text,true,,44409,675,5,5,http://localhost/products/living-room-table2,31,0,0
+1686848282526,33,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-1,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,33,0,0
+1686848293646,163,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,91592,2136,5,5,null,0,3101,2
+1686848295286,63,"Click ""Chairs"" tab",200,OK,Thread Group 1-1,text,true,,46129,654,5,5,http://localhost/chairs,34,0,2
+1686848296802,59,Open random chair,200,OK,Thread Group 1-1,text,true,,44841,670,5,5,http://localhost/products/modern-chair2,37,0,0
+1686848296869,41,Add chair to cart,200,OK,Thread Group 1-1,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,41,0,0
+1686848307935,204,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,143783,9635,5,5,null,0,3537,2
+1686848309423,38,Open Cart,200,OK,Thread Group 1-1,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,29,0,2
+1686848309550,41,"Click ""Place an order""",200,OK,Thread Group 1-1,text,true,,65520,884,5,5,http://localhost/checkout,39,0,0
+1686848309592,21,Fetch country-states,200,OK,Thread Group 1-1,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848311571,104,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-1,text,true,,36848,7466,5,5,http://localhost/thank-you,75,0,0
+1686848311571,75,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-1,text,true,,494,6725,5,5,http://localhost/checkout,75,0,0
+1686848311646,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-1,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848270696,598,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,383325,14377,5,5,null,0,60187,7
+1686848270696,79,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,53091,489,5,5,null,0,2,2
+1686848270697,79,open the application,200,OK,Thread Group 1-4,text,true,,53091,489,5,5,http://localhost/,35,0,2
+1686848281807,144,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,94833,2083,5,5,null,0,4038,2
+1686848282966,60,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-4,text,true,,49979,654,5,5,http://localhost/tables,30,0,2
+1686848285892,56,Open a table product cart (click on a table),200,OK,Thread Group 1-4,text,true,,44232,671,5,5,http://localhost/products/kitchen-table8,33,0,0
+1686848285960,28,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-4,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848297029,169,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,91645,2136,5,5,null,0,3627,2
+1686848299572,77,"Click ""Chairs"" tab",200,OK,Thread Group 1-4,text,true,,46129,654,5,5,http://localhost/chairs,49,0,2
+1686848300714,51,Open random chair,200,OK,Thread Group 1-4,text,true,,44894,670,5,5,http://localhost/products/modern-chair4,30,0,0
+1686848300784,41,Add chair to cart,200,OK,Thread Group 1-4,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,41,0,0
+1686848311841,206,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,143756,9669,5,5,null,0,8340,1
+1686848316045,43,Open Cart,200,OK,Thread Group 1-4,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38941,652,5,5,http://localhost/cart,33,0,1
+1686848317860,51,"Click ""Place an order""",200,OK,Thread Group 1-4,text,true,,65504,885,5,5,http://localhost/checkout,39,0,0
+1686848317912,21,Fetch country-states,200,OK,Thread Group 1-4,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848320296,91,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-4,text,true,,36848,7499,5,5,http://localhost/thank-you,61,0,0
+1686848320296,61,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-4,text,true,,494,6758,5,5,http://localhost/checkout,61,0,0
+1686848320357,30,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-4,text,true,,36354,741,5,5,http://localhost/thank-you,23,0,0
+1686848269400,626,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,382768,14169,5,5,null,0,71220,10
+1686848269400,76,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,53091,489,5,5,null,0,1,2
+1686848269400,76,open the application,200,OK,Thread Group 1-3,text,true,,53091,489,5,5,http://localhost/,34,0,2
+1686848280555,145,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,94933,2087,5,5,null,0,2490,2
+1686848281558,60,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-3,text,true,,49979,654,5,5,http://localhost/tables,29,0,2
+1686848283094,56,Open a table product cart (click on a table),200,OK,Thread Group 1-3,text,true,,44332,675,5,5,http://localhost/products/living-room-table1,31,0,0
+1686848283160,29,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-3,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,29,0,0
+1686848294227,167,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,90966,2136,5,5,null,0,1499,2
+1686848294999,64,"Click ""Chairs"" tab",200,OK,Thread Group 1-3,text,true,,46129,654,5,5,http://localhost/chairs,37,0,2
+1686848295777,56,Open random chair,200,OK,Thread Group 1-3,text,true,,44215,670,5,5,http://localhost/products/modern-chair3,30,0,0
+1686848295846,47,Add chair to cart,200,OK,Thread Group 1-3,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,47,0,0
+1686848306916,238,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,143778,9457,5,5,null,0,23032,4
+1686848308941,51,Open Cart,200,OK,Thread Group 1-3,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,41,0,0
+1686848310028,48,"Click ""Place an order""",200,OK,Thread Group 1-3,text,true,,65514,885,5,5,http://localhost/checkout,45,0,0
+1686848310076,21,Fetch country-states,200,OK,Thread Group 1-3,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848330068,118,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-3,text,true,,36849,7287,5,5,http://localhost/thank-you,88,0,4
+1686848330068,88,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-3,text,true,,495,6546,5,5,http://localhost/checkout,88,0,4
+1686848330156,30,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-3,text,true,,36354,741,5,5,http://localhost/thank-you,23,0,0
+1686848267088,591,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,384251,14004,5,5,null,0,74167,10
+1686848267088,72,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,53091,489,5,5,null,0,2,3
+1686848267089,72,open the application,200,OK,Thread Group 1-2,text,true,,53091,489,5,5,http://localhost/,32,0,3
+1686848278193,162,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,94493,2087,5,5,null,0,5544,2
+1686848280590,62,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-2,text,true,,49979,654,5,5,http://localhost/tables,32,0,2
+1686848283789,71,Open a table product cart (click on a table),200,OK,Thread Group 1-2,text,true,,43892,675,5,5,http://localhost/products/living-room-table3,37,0,0
+1686848283869,29,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-2,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,29,0,0
+1686848294915,153,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,92881,2136,5,5,null,0,2882,1
+1686848296555,71,"Click ""Chairs"" tab",200,OK,Thread Group 1-2,text,true,,46129,654,5,5,http://localhost/chairs,33,0,1
+1686848297860,51,Open random chair,200,OK,Thread Group 1-2,text,true,,46130,670,5,5,http://localhost/products/modern-chair1,31,0,0
+1686848297919,31,Add chair to cart,200,OK,Thread Group 1-2,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,31,0,0
+1686848308978,204,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,143786,9292,5,5,null,0,21647,4
+1686848312528,47,Open Cart,200,OK,Thread Group 1-2,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,38,0,1
+1686848313914,43,"Click ""Place an order""",200,OK,Thread Group 1-2,text,true,,65522,885,5,5,http://localhost/checkout,39,0,0
+1686848313957,21,Fetch country-states,200,OK,Thread Group 1-2,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848330736,93,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-2,text,true,,36849,7122,5,5,http://localhost/thank-you,64,0,3
+1686848330736,64,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-2,text,true,,495,6381,5,5,http://localhost/checkout,64,0,3
+1686848330800,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-2,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848277266,594,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,382318,13984,5,5,null,0,69298,10
+1686848277266,62,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,53091,489,5,5,null,0,1,2
+1686848277266,62,open the application,200,OK,Thread Group 1-5,text,true,,53091,489,5,5,http://localhost/,32,0,2
+1686848288399,159,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,94754,2084,5,5,null,0,4444,2
+1686848289929,55,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-5,text,true,,49979,654,5,5,http://localhost/tables,27,0,2
+1686848292880,71,Open a table product cart (click on a table),200,OK,Thread Group 1-5,text,true,,44153,671,5,5,http://localhost/products/kitchen-table7,37,0,0
+1686848292969,33,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-5,text,true,,622,759,5,5,http://localhost/wp-admin/admin-ajax.php,33,0,0
+1686848304030,162,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,90694,2138,5,5,null,0,2506,1
+1686848305485,73,"Click ""Chairs"" tab",200,OK,Thread Group 1-5,text,true,,46129,654,5,5,http://localhost/chairs,45,0,1
+1686848306602,50,Open random chair,200,OK,Thread Group 1-5,text,true,,43943,670,5,5,http://localhost/products/modern-chair5,29,0,0
+1686848306658,39,Add chair to cart,200,OK,Thread Group 1-5,text,true,,622,814,5,5,http://localhost/wp-admin/admin-ajax.php,39,0,0
+1686848317780,211,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,143779,9273,5,5,null,0,18066,5
+1686848321404,58,Open Cart,200,OK,Thread Group 1-5,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,48,0,2
+1686848321527,41,"Click ""Place an order""",200,OK,Thread Group 1-5,text,true,,65515,890,5,5,http://localhost/checkout,39,0,0
+1686848321569,20,Fetch country-states,200,OK,Thread Group 1-5,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848335965,92,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-5,text,true,,36849,7098,5,5,http://localhost/thank-you,62,0,3
+1686848335965,62,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-5,text,true,,495,6357,5,5,http://localhost/checkout,62,0,3
+1686848336027,30,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-5,text,true,,36354,741,5,5,http://localhost/thank-you,23,0,0
+1686848322775,629,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,383230,14048,5,5,null,0,67959,9
+1686848322775,77,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,53091,489,5,5,null,0,1,3
+1686848322775,77,open the application,200,OK,Thread Group 1-1,text,true,,53091,489,5,5,http://localhost/,33,0,3
+1686848333865,152,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,95493,2084,5,5,null,0,3696,2
+1686848334533,56,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-1,text,true,,49979,654,5,5,http://localhost/tables,30,0,2
+1686848337612,66,Open a table product cart (click on a table),200,OK,Thread Group 1-1,text,true,,44892,671,5,5,http://localhost/products/kitchen-table6,29,0,0
+1686848337683,30,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-1,text,true,,622,759,5,5,http://localhost/wp-admin/admin-ajax.php,30,0,0
+1686848348802,167,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,90870,2138,5,5,null,0,3346,2
+1686848351186,82,"Click ""Chairs"" tab",200,OK,Thread Group 1-1,text,true,,46129,654,5,5,http://localhost/chairs,54,0,2
+1686848352225,56,Open random chair,200,OK,Thread Group 1-1,text,true,,44119,670,5,5,http://localhost/products/modern-chair6,34,0,0
+1686848352286,29,Add chair to cart,200,OK,Thread Group 1-1,text,true,,622,814,5,5,http://localhost/wp-admin/admin-ajax.php,29,0,0
+1686848363380,233,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,143776,9337,5,5,null,0,16653,2
+1686848366763,47,Open Cart,200,OK,Thread Group 1-1,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38949,652,5,5,http://localhost/cart,37,0,1
+1686848368072,54,"Click ""Place an order""",200,OK,Thread Group 1-1,text,true,,65515,889,5,5,http://localhost/checkout,52,0,0
+1686848368127,20,Fetch country-states,200,OK,Thread Group 1-1,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848380153,112,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-1,text,true,,36849,7163,5,5,http://localhost/thank-you,84,0,1
+1686848380153,84,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-1,text,true,,495,6422,5,5,http://localhost/checkout,84,0,1
+1686848380237,28,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-1,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848331481,667,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,382870,14200,5,5,null,0,90295,9
+1686848331481,71,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,53091,489,5,5,null,0,1,1
+1686848331482,71,open the application,200,OK,Thread Group 1-4,text,true,,53091,489,5,5,http://localhost/,31,0,1
+1686848342623,150,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,95046,2084,5,5,null,0,4456,2
+1686848344700,58,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-4,text,true,,49979,654,5,5,http://localhost/tables,32,0,2
+1686848347130,67,Open a table product cart (click on a table),200,OK,Thread Group 1-4,text,true,,44445,671,5,5,http://localhost/products/kitchen-table5,33,0,0
+1686848347204,25,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-4,text,true,,622,759,5,5,http://localhost/wp-admin/admin-ajax.php,25,0,0
+1686848358283,188,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,90961,2138,5,5,null,0,2888,2
+1686848359548,77,"Click ""Chairs"" tab",200,OK,Thread Group 1-4,text,true,,46129,654,5,5,http://localhost/chairs,49,0,2
+1686848361242,67,Open random chair,200,OK,Thread Group 1-4,text,true,,44210,670,5,5,http://localhost/products/modern-chair7,42,0,0
+1686848361314,44,Add chair to cart,200,OK,Thread Group 1-4,text,true,,622,814,5,5,http://localhost/wp-admin/admin-ajax.php,44,0,0
+1686848372436,258,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,143772,9489,5,5,null,0,38672,4
+1686848374635,63,Open Cart,200,OK,Thread Group 1-4,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38947,652,5,5,http://localhost/cart,52,0,2
+1686848376497,49,"Click ""Place an order""",200,OK,Thread Group 1-4,text,true,,65513,889,5,5,http://localhost/checkout,46,0,0
+1686848376546,22,Fetch country-states,200,OK,Thread Group 1-4,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,22,0,0
+1686848411241,124,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-4,text,true,,36849,7315,5,5,http://localhost/thank-you,91,0,2
+1686848411241,91,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-4,text,true,,495,6574,5,5,http://localhost/checkout,91,0,2
+1686848411333,32,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-4,text,true,,36354,741,5,5,http://localhost/thank-you,23,0,0
+1686848341849,630,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,382781,14296,5,5,null,0,80794,9
+1686848341849,80,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,53091,489,5,5,null,0,0,1
+1686848341849,80,open the application,200,OK,Thread Group 1-2,text,true,,53091,489,5,5,http://localhost/,32,0,1
+1686848353001,153,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,94558,2084,5,5,null,0,3553,1
+1686848353793,58,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-2,text,true,,49979,654,5,5,http://localhost/tables,28,0,1
+1686848356607,60,Open a table product cart (click on a table),200,OK,Thread Group 1-2,text,true,,43957,671,5,5,http://localhost/products/kitchen-table3,29,0,0
+1686848356672,35,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-2,text,true,,622,759,5,5,http://localhost/wp-admin/admin-ajax.php,35,0,0
+1686848367775,165,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,91361,2138,5,5,null,0,2226,1
+1686848369896,85,"Click ""Chairs"" tab",200,OK,Thread Group 1-2,text,true,,46129,654,5,5,http://localhost/chairs,59,0,1
+1686848370081,54,Open random chair,200,OK,Thread Group 1-2,text,true,,44610,671,5,5,http://localhost/products/ancient-chair2,31,0,0
+1686848370139,26,Add chair to cart,200,OK,Thread Group 1-2,text,true,,622,813,5,5,http://localhost/wp-admin/admin-ajax.php,26,0,0
+1686848381177,232,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,143771,9585,5,5,null,0,30769,6
+1686848384908,63,Open Cart,200,OK,Thread Group 1-2,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38944,652,5,5,http://localhost/cart,53,0,2
+1686848386063,49,"Click ""Place an order""",200,OK,Thread Group 1-2,text,true,,65515,887,5,5,http://localhost/checkout,46,0,0
+1686848386113,20,Fetch country-states,200,OK,Thread Group 1-2,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848412079,100,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-2,text,true,,36849,7413,5,5,http://localhost/thank-you,69,0,4
+1686848412079,69,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-2,text,true,,495,6672,5,5,http://localhost/checkout,69,0,4
+1686848412148,31,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-2,text,true,,36354,741,5,5,http://localhost/thank-you,23,0,0
+1686848341246,618,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,382458,13949,5,5,null,0,82441,8
+1686848341246,77,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,53091,489,5,5,null,0,0,2
+1686848341246,77,open the application,200,OK,Thread Group 1-3,text,true,,53091,489,5,5,http://localhost/,33,0,2
+1686848352365,154,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,94417,2084,5,5,null,0,2729,2
+1686848353047,58,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-3,text,true,,49979,654,5,5,http://localhost/tables,28,0,2
+1686848355148,68,Open a table product cart (click on a table),200,OK,Thread Group 1-3,text,true,,43816,671,5,5,http://localhost/products/kitchen-table4,34,0,0
+1686848355220,28,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-3,text,true,,622,759,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848366304,139,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,91172,2138,5,5,null,0,1844,1
+1686848366885,60,"Click ""Chairs"" tab",200,OK,Thread Group 1-3,text,true,,46129,654,5,5,http://localhost/chairs,34,0,1
+1686848368203,52,Open random chair,200,OK,Thread Group 1-3,text,true,,44421,670,5,5,http://localhost/products/modern-chair8,31,0,0
+1686848368260,27,Add chair to cart,200,OK,Thread Group 1-3,text,true,,622,814,5,5,http://localhost/wp-admin/admin-ajax.php,27,0,0
+1686848379339,248,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,143778,9238,5,5,null,0,33642,3
+1686848382724,59,Open Cart,200,OK,Thread Group 1-3,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38950,652,5,5,http://localhost/cart,50,0,1
+1686848384388,56,"Click ""Place an order""",200,OK,Thread Group 1-3,text,true,,65516,889,5,5,http://localhost/checkout,44,0,0
+1686848384445,21,Fetch country-states,200,OK,Thread Group 1-3,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848413118,112,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-3,text,true,,36849,7064,5,5,http://localhost/thank-you,80,0,2
+1686848413118,80,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-3,text,true,,495,6323,5,5,http://localhost/checkout,80,0,2
+1686848413198,32,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-3,text,true,,36354,741,5,5,http://localhost/thank-you,24,0,0
+1686848347159,615,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,383438,14040,5,5,null,0,83086,8
+1686848347159,66,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,53091,489,5,5,null,0,0,1
+1686848347159,66,open the application,200,OK,Thread Group 1-5,text,true,,53091,489,5,5,http://localhost/,31,0,1
+1686848358240,141,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,95291,2083,5,5,null,0,4594,1
+1686848360618,61,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-5,text,true,,49979,654,5,5,http://localhost/tables,27,0,1
+1686848362891,54,Open a table product cart (click on a table),200,OK,Thread Group 1-5,text,true,,44690,671,5,5,http://localhost/products/kitchen-table2,31,0,0
+1686848362949,26,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-5,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,26,0,0
+1686848373998,165,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,91287,2138,5,5,null,0,2273,2
+1686848375092,75,"Click ""Chairs"" tab",200,OK,Thread Group 1-5,text,true,,46129,654,5,5,http://localhost/chairs,48,0,2
+1686848376341,62,Open random chair,200,OK,Thread Group 1-5,text,true,,44536,671,5,5,http://localhost/products/ancient-chair3,39,0,0
+1686848376407,28,Add chair to cart,200,OK,Thread Group 1-5,text,true,,622,813,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848387505,243,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,143769,9330,5,5,null,0,32089,4
+1686848390790,59,Open Cart,200,OK,Thread Group 1-5,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38945,652,5,5,http://localhost/cart,50,0,2
+1686848391641,58,"Click ""Place an order""",200,OK,Thread Group 1-5,text,true,,65512,885,5,5,http://localhost/checkout,46,0,0
+1686848391699,20,Fetch country-states,200,OK,Thread Group 1-5,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848419731,106,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-5,text,true,,36849,7160,5,5,http://localhost/thank-you,78,0,2
+1686848419731,78,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-5,text,true,,495,6419,5,5,http://localhost/checkout,78,0,2
+1686848419809,28,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-5,text,true,,36354,741,5,5,http://localhost/thank-you,21,0,0
+1686848391364,582,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,382913,14127,5,5,null,0,75521,10
+1686848391364,75,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,53091,489,5,5,null,0,2,2
+1686848391365,75,open the application,200,OK,Thread Group 1-1,text,true,,53091,489,5,5,http://localhost/,34,0,2
+1686848402459,152,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,94842,2083,5,5,null,0,3078,2
+1686848403840,56,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-1,text,true,,49979,654,5,5,http://localhost/tables,31,0,2
+1686848405588,69,Open a table product cart (click on a table),200,OK,Thread Group 1-1,text,true,,44241,671,5,5,http://localhost/products/kitchen-table1,33,0,0
+1686848405662,27,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-1,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,27,0,0
+1686848416699,154,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,91213,2138,5,5,null,0,1457,2
+1686848417810,63,"Click ""Chairs"" tab",200,OK,Thread Group 1-1,text,true,,46129,654,5,5,http://localhost/chairs,34,0,2
+1686848418214,50,Open random chair,200,OK,Thread Group 1-1,text,true,,44462,671,5,5,http://localhost/products/ancient-chair4,31,0,0
+1686848418269,41,Add chair to cart,200,OK,Thread Group 1-1,text,true,,622,813,5,5,http://localhost/wp-admin/admin-ajax.php,41,0,0
+1686848429386,201,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,143767,9417,5,5,null,0,26854,4
+1686848431445,43,Open Cart,200,OK,Thread Group 1-1,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38943,652,5,5,http://localhost/cart,32,0,2
+1686848433189,44,"Click ""Place an order""",200,OK,Thread Group 1-1,text,true,,65512,885,5,5,http://localhost/checkout,42,0,0
+1686848433234,21,Fetch country-states,200,OK,Thread Group 1-1,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848456347,93,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-1,text,true,,36849,7247,5,5,http://localhost/thank-you,63,0,2
+1686848456347,63,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-1,text,true,,495,6506,5,5,http://localhost/checkout,63,0,2
+1686848456410,30,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-1,text,true,,36354,741,5,5,http://localhost/thank-you,23,0,0
+1686848424306,623,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,384787,14043,5,5,null,0,57305,6
+1686848424306,76,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,53091,489,5,5,null,0,0,1
+1686848424306,76,open the application,200,OK,Thread Group 1-3,text,true,,53091,489,5,5,http://localhost/,32,0,1
+1686848435486,152,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,95145,2087,5,5,null,0,4256,1
+1686848437168,57,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-3,text,true,,49979,654,5,5,http://localhost/tables,28,0,1
+1686848439795,66,Open a table product cart (click on a table),200,OK,Thread Group 1-3,text,true,,44544,675,5,5,http://localhost/products/living-room-table7,31,0,0
+1686848439865,29,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-3,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848450971,151,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,92776,2136,5,5,null,0,293,2
+1686848451061,63,"Click ""Chairs"" tab",200,OK,Thread Group 1-3,text,true,,46129,654,5,5,http://localhost/chairs,34,0,2
+1686848451323,60,Open random chair,200,OK,Thread Group 1-3,text,true,,46025,670,5,5,http://localhost/products/modern-chair1,38,0,0
+1686848451387,28,Add chair to cart,200,OK,Thread Group 1-3,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848462476,244,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,143775,9331,5,5,null,0,8478,2
+1686848466190,63,Open Cart,200,OK,Thread Group 1-3,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38949,652,5,5,http://localhost/cart,52,0,2
+1686848466364,51,"Click ""Place an order""",200,OK,Thread Group 1-3,text,true,,65515,885,5,5,http://localhost/checkout,48,0,0
+1686848466415,22,Fetch country-states,200,OK,Thread Group 1-3,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,22,0,0
+1686848471090,108,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-3,text,true,,36848,7161,5,5,http://localhost/thank-you,76,0,0
+1686848471090,76,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-3,text,true,,494,6420,5,5,http://localhost/checkout,76,0,0
+1686848471168,30,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-3,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848423276,588,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,383280,14296,5,5,null,0,71537,8
+1686848423276,60,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,53091,489,5,5,null,0,1,1
+1686848423277,60,open the application,200,OK,Thread Group 1-2,text,true,,53091,489,5,5,http://localhost/,30,0,1
+1686848434366,161,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,95242,2087,5,5,null,0,4860,1
+1686848436135,59,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-2,text,true,,49979,654,5,5,http://localhost/tables,30,0,1
+1686848439281,70,Open a table product cart (click on a table),200,OK,Thread Group 1-2,text,true,,44641,675,5,5,http://localhost/products/living-room-table8,35,0,0
+1686848439355,32,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-2,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,32,0,0
+1686848450454,160,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,91165,2137,5,5,null,0,4585,2
+1686848452802,58,"Click ""Chairs"" tab",200,OK,Thread Group 1-2,text,true,,46129,654,5,5,http://localhost/chairs,32,0,2
+1686848455092,55,Open random chair,200,OK,Thread Group 1-2,text,true,,44414,671,5,5,http://localhost/products/ancient-chair6,31,0,0
+1686848455152,47,Add chair to cart,200,OK,Thread Group 1-2,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,47,0,0
+1686848466217,207,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,143782,9583,5,5,null,0,17896,4
+1686848467859,48,Open Cart,200,OK,Thread Group 1-2,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38955,652,5,5,http://localhost/cart,37,0,2
+1686848469714,45,"Click ""Place an order""",200,OK,Thread Group 1-2,text,true,,65515,885,5,5,http://localhost/checkout,42,0,0
+1686848469759,22,Fetch country-states,200,OK,Thread Group 1-2,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,22,0,0
+1686848484228,92,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-2,text,true,,36849,7413,5,5,http://localhost/thank-you,64,0,2
+1686848484228,64,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-2,text,true,,495,6672,5,5,http://localhost/checkout,64,0,2
+1686848484292,28,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-2,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848430862,615,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,383019,14129,5,5,null,0,82057,7
+1686848430862,80,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,53091,489,5,5,null,0,1,1
+1686848430863,80,open the application,200,OK,Thread Group 1-5,text,true,,53091,489,5,5,http://localhost/,35,0,1
+1686848441990,156,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,94736,2087,5,5,null,0,2574,1
+1686848442821,60,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-5,text,true,,49979,654,5,5,http://localhost/tables,28,0,1
+1686848444619,62,Open a table product cart (click on a table),200,OK,Thread Group 1-5,text,true,,44135,675,5,5,http://localhost/products/living-room-table6,30,0,0
+1686848444686,34,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-5,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,34,0,0
+1686848455818,162,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,91419,2136,5,5,null,0,3104,2
+1686848457934,74,"Click ""Chairs"" tab",200,OK,Thread Group 1-5,text,true,,46129,654,5,5,http://localhost/chairs,50,0,2
+1686848458992,59,Open random chair,200,OK,Thread Group 1-5,text,true,,44668,670,5,5,http://localhost/products/modern-chair2,37,0,0
+1686848459055,29,Add chair to cart,200,OK,Thread Group 1-5,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,29,0,0
+1686848470120,217,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,143773,9417,5,5,null,0,32100,3
+1686848473219,58,Open Cart,200,OK,Thread Group 1-5,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38949,652,5,5,http://localhost/cart,47,0,1
+1686848475035,46,"Click ""Place an order""",200,OK,Thread Group 1-5,text,true,,65512,885,5,5,http://localhost/checkout,44,0,0
+1686848475082,21,Fetch country-states,200,OK,Thread Group 1-5,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848502344,92,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-5,text,true,,36849,7247,5,5,http://localhost/thank-you,63,0,2
+1686848502344,63,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-5,text,true,,495,6506,5,5,http://localhost/checkout,63,0,2
+1686848502408,28,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-5,text,true,,36354,741,5,5,http://localhost/thank-you,22,0,0
+1686848422444,614,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,381906,13997,5,5,null,0,91352,9
+1686848422444,86,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,53091,489,5,5,null,0,0,3
+1686848422444,86,open the application,200,OK,Thread Group 1-4,text,true,,53091,489,5,5,http://localhost/,40,0,3
+1686848433545,150,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,94664,2075,5,5,null,0,3648,2
+1686848435127,59,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-4,text,true,,49979,654,5,5,http://localhost/tables,31,0,2
+1686848437248,64,Open a table product cart (click on a table),200,OK,Thread Group 1-4,text,true,,44063,663,5,5,http://localhost/products/table1,31,0,0
+1686848437316,27,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-4,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,27,0,0
+1686848448431,156,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,90411,2138,5,5,null,0,2348,1
+1686848449076,63,"Click ""Chairs"" tab",200,OK,Thread Group 1-4,text,true,,46129,654,5,5,http://localhost/chairs,34,0,1
+1686848450837,51,Open random chair,200,OK,Thread Group 1-4,text,true,,43660,671,5,5,http://localhost/products/ancient-chair5,32,0,0
+1686848450893,42,Add chair to cart,200,OK,Thread Group 1-4,text,true,,622,813,5,5,http://localhost/wp-admin/admin-ajax.php,42,0,0
+1686848461938,222,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,143740,9295,5,5,null,0,41218,3
+1686848465599,60,Open Cart,200,OK,Thread Group 1-4,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38929,652,5,5,http://localhost/cart,48,0,1
+1686848467687,40,"Click ""Place an order""",200,OK,Thread Group 1-4,text,true,,65499,884,5,5,http://localhost/checkout,38,0,0
+1686848467728,20,Fetch country-states,200,OK,Thread Group 1-4,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848503275,102,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-4,text,true,,36849,7126,5,5,http://localhost/thank-you,72,0,2
+1686848503275,72,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-4,text,true,,495,6385,5,5,http://localhost/checkout,72,0,2
+1686848503348,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-4,text,true,,36354,741,5,5,http://localhost/thank-you,21,0,0
+1686848467467,605,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,383012,13944,5,5,null,0,70411,7
+1686848467467,72,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,53091,489,5,5,null,0,1,3
+1686848467468,72,open the application,200,OK,Thread Group 1-1,text,true,,53091,489,5,5,http://localhost/,33,0,3
+1686848478613,153,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,95085,2087,5,5,null,0,4992,2
+1686848480863,65,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-1,text,true,,49979,654,5,5,http://localhost/tables,32,0,2
+1686848483667,60,Open a table product cart (click on a table),200,OK,Thread Group 1-1,text,true,,44484,675,5,5,http://localhost/products/living-room-table5,34,0,0
+1686848483731,28,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-1,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848494778,142,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,91058,2136,5,5,null,0,188,0
+1686848494936,57,"Click ""Chairs"" tab",200,OK,Thread Group 1-1,text,true,,46129,654,5,5,http://localhost/chairs,29,0,0
+1686848495018,53,Open random chair,200,OK,Thread Group 1-1,text,true,,44307,670,5,5,http://localhost/products/modern-chair3,29,0,0
+1686848495076,32,Add chair to cart,200,OK,Thread Group 1-1,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,32,0,0
+1686848506173,238,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,143778,9232,5,5,null,0,20999,2
+1686848509426,55,Open Cart,200,OK,Thread Group 1-1,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,5,5,http://localhost/cart,45,0,1
+1686848509582,45,"Click ""Place an order""",200,OK,Thread Group 1-1,text,true,,65514,885,5,5,http://localhost/checkout,42,0,0
+1686848509628,21,Fetch country-states,200,OK,Thread Group 1-1,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848527293,117,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-1,text,true,,36849,7062,5,5,http://localhost/thank-you,85,0,1
+1686848527293,85,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-1,text,true,,495,6321,5,5,http://localhost/checkout,85,0,1
+1686848527378,32,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-1,text,true,,36354,741,5,5,http://localhost/thank-you,24,0,0
+1686848482236,606,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,384044,14294,4,4,null,0,79458,7
+1686848482236,76,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,53091,489,5,5,null,0,1,2
+1686848482237,76,open the application,200,OK,Thread Group 1-3,text,true,,53091,489,5,5,http://localhost/,33,0,2
+1686848493316,153,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,95506,2087,5,5,null,0,1449,1
+1686848493444,64,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-3,text,true,,49979,654,5,5,http://localhost/tables,33,0,1
+1686848494824,62,Open a table product cart (click on a table),200,OK,Thread Group 1-3,text,true,,44905,675,5,5,http://localhost/products/living-room-table4,36,0,0
+1686848494890,27,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-3,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,27,0,0
+1686848505958,159,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,91674,2136,5,5,null,0,2444,1
+1686848506957,72,"Click ""Chairs"" tab",200,OK,Thread Group 1-3,text,true,,46129,654,5,5,http://localhost/chairs,45,0,1
+1686848508470,59,Open random chair,200,OK,Thread Group 1-3,text,true,,44923,670,5,5,http://localhost/products/modern-chair4,38,0,0
+1686848508533,28,Add chair to cart,200,OK,Thread Group 1-3,text,true,,622,812,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848519630,218,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,143773,9582,4,4,null,0,31450,3
+1686848523138,43,Open Cart,200,OK,Thread Group 1-3,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38949,652,5,5,http://localhost/cart,33,0,1
+1686848524863,45,"Click ""Place an order""",200,OK,Thread Group 1-3,text,true,,65512,885,5,5,http://localhost/checkout,42,0,0
+1686848524908,21,Fetch country-states,200,OK,Thread Group 1-3,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,21,0,0
+1686848551190,109,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-3,text,true,,36849,7412,4,4,http://localhost/thank-you,79,0,2
+1686848551190,79,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-3,text,true,,495,6671,4,4,http://localhost/checkout,79,0,2
+1686848551270,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-3,text,true,,36354,741,4,4,http://localhost/thank-you,22,0,0
+1686848495403,616,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,382487,14148,3,3,null,0,73687,9
+1686848495403,60,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,53091,489,5,5,null,0,1,1
+1686848495404,60,open the application,200,OK,Thread Group 1-2,text,true,,53091,489,5,5,http://localhost/,30,0,1
+1686848506530,164,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,94737,2087,5,5,null,0,2338,2
+1686848506805,61,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-2,text,true,,49979,654,5,5,http://localhost/tables,32,0,2
+1686848508925,75,Open a table product cart (click on a table),200,OK,Thread Group 1-2,text,true,,44136,675,5,5,http://localhost/products/living-room-table3,44,0,0
+1686848509004,28,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-2,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,28,0,0
+1686848520081,169,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,90865,2137,5,5,null,0,1411,2
+1686848520803,72,"Click ""Chairs"" tab",200,OK,Thread Group 1-2,text,true,,46129,654,5,5,http://localhost/chairs,47,0,2
+1686848521561,55,Open random chair,200,OK,Thread Group 1-2,text,true,,44114,670,5,5,http://localhost/products/modern-chair5,34,0,0
+1686848521620,42,Add chair to cart,200,OK,Thread Group 1-2,text,true,,622,813,5,5,http://localhost/wp-admin/admin-ajax.php,42,0,0
+1686848532748,223,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,143794,9435,4,4,null,0,25710,4
+1686848535407,57,Open Cart,200,OK,Thread Group 1-2,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38960,652,5,5,http://localhost/cart,47,0,2
+1686848536921,53,"Click ""Place an order""",200,OK,Thread Group 1-2,text,true,,65522,888,5,5,http://localhost/checkout,41,0,0
+1686848536975,21,Fetch country-states,200,OK,Thread Group 1-2,text,true,,2463,633,5,5,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848558588,92,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-2,text,true,,36849,7262,4,4,http://localhost/thank-you,63,0,2
+1686848558588,63,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-2,text,true,,495,6521,4,4,http://localhost/checkout,63,0,2
+1686848558651,29,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-2,text,true,,36354,741,4,4,http://localhost/thank-you,23,0,0
+1686848514412,595,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,382729,14079,2,2,null,0,57131,5
+1686848514412,67,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,53091,489,5,5,null,0,1,2
+1686848514412,67,open the application,200,OK,Thread Group 1-4,text,true,,53091,489,5,5,http://localhost/,32,0,2
+1686848525558,159,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,94754,2087,5,5,null,0,4482,1
+1686848527907,55,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-4,text,true,,49979,654,5,5,http://localhost/tables,24,0,1
+1686848530090,74,Open a table product cart (click on a table),200,OK,Thread Group 1-4,text,true,,44153,675,5,5,http://localhost/products/living-room-table1,39,0,0
+1686848530168,30,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-4,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,29,0,0
+1686848541227,158,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,91107,2137,4,4,null,0,3631,1
+1686848543033,77,"Click ""Chairs"" tab",200,OK,Thread Group 1-4,text,true,,46129,654,4,4,http://localhost/chairs,49,0,1
+1686848544931,54,Open random chair,200,OK,Thread Group 1-4,text,true,,44356,670,4,4,http://localhost/products/modern-chair7,31,0,0
+1686848544989,27,Add chair to cart,200,OK,Thread Group 1-4,text,true,,622,813,4,4,http://localhost/wp-admin/admin-ajax.php,27,0,0
+1686848556035,211,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,143777,9366,4,4,null,0,4797,1
+1686848559061,59,Open Cart,200,OK,Thread Group 1-4,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38952,652,4,4,http://localhost/cart,47,0,1
+1686848560163,43,"Click ""Place an order""",200,OK,Thread Group 1-4,text,true,,65514,887,4,4,http://localhost/checkout,40,0,0
+1686848560206,23,Fetch country-states,200,OK,Thread Group 1-4,text,true,,2463,633,4,4,http://localhost/wp-admin/admin-ajax.php,23,0,0
+1686848560957,86,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-4,text,true,,36848,7194,4,4,http://localhost/thank-you,56,0,0
+1686848560957,56,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-4,text,true,,494,6453,4,4,http://localhost/checkout,56,0,0
+1686848561013,30,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-4,text,true,,36354,741,4,4,http://localhost/thank-you,23,0,0
+1686848513534,638,Load-Model-Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,382977,14365,1,1,null,0,60293,7
+1686848513534,75,S01_TASK_T01_open_application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,53091,489,5,5,null,0,1,2
+1686848513535,75,open the application,200,OK,Thread Group 1-5,text,true,,53091,489,5,5,http://localhost/,33,0,2
+1686848524656,153,S01_TASK_T02_add_table_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,94999,2087,5,5,null,0,3088,1
+1686848525148,61,"Navigate to ""Tables"" tab",200,OK,Thread Group 1-5,text,true,,49979,654,5,5,http://localhost/tables,32,0,1
+1686848527801,65,Open a table product cart (click on a table),200,OK,Thread Group 1-5,text,true,,44398,675,5,5,http://localhost/products/living-room-table2,30,0,0
+1686848527869,27,"Add table to Cart (click ""Add to Cart"" button)",200,OK,Thread Group 1-5,text,true,,622,758,5,5,http://localhost/wp-admin/admin-ajax.php,27,0,0
+1686848538943,159,S01_TASK_T03_add_chair_to_cart,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,91100,2137,4,4,null,0,741,1
+1686848539379,64,"Click ""Chairs"" tab",200,OK,Thread Group 1-5,text,true,,46129,654,4,4,http://localhost/chairs,31,0,1
+1686848539744,54,Open random chair,200,OK,Thread Group 1-5,text,true,,44349,670,4,4,http://localhost/products/modern-chair6,32,0,0
+1686848539802,41,Add chair to cart,200,OK,Thread Group 1-5,text,true,,622,813,4,4,http://localhost/wp-admin/admin-ajax.php,41,0,0
+1686848550848,251,S01_TASK_T04_place_order,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,143787,9652,3,3,null,0,12331,3
+1686848554346,59,Open Cart,200,OK,Thread Group 1-5,text,true,"No Nodes Matched for count(//tbody/tr/td[contains(@class,'td-name')])=2",38955,652,4,4,http://localhost/cart,49,0,2
+1686848555771,61,"Click ""Place an order""",200,OK,Thread Group 1-5,text,true,,65520,887,4,4,http://localhost/checkout,49,0,0
+1686848555833,20,Fetch country-states,200,OK,Thread Group 1-5,text,true,,2463,633,4,4,http://localhost/wp-admin/admin-ajax.php,20,0,0
+1686848563319,111,"Fill in all required fields, click ""Place an order""",200,OK,Thread Group 1-5,text,true,,36849,7480,3,3,http://localhost/thank-you,80,0,1
+1686848563319,80,"Fill in all required fields, click ""Place an order""-0",302,Found,Thread Group 1-5,text,true,,495,6739,3,3,http://localhost/checkout,80,0,1
+1686848563399,31,"Fill in all required fields, click ""Place an order""-1",200,OK,Thread Group 1-5,text,true,,36354,741,3,3,http://localhost/thank-you,23,0,0
