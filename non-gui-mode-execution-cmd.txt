@@ -1,3 +1,6 @@
 
 
 jmeter –n –t load-model-test-v0.jmx -l load-test-15-june-2023\result.csv -j load-test-15-june-2023\jmeterLog.txt -e -o load-test-15-june-2023\htmlReport
+
+
+jmeter -Jthreads=5 -Jrampup-period=5 -Jloop-count=-1 -Jduration=1800 –n –t load-model-test-v0.jmx -l load-test-22-june-2023\result.csv -j load-test-22-june-2023\jmeterLog.txt -e -o load-test-22-june-2023\htmlReport
