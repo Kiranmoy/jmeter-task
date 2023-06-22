@@ -15,7 +15,7 @@ node {
         def LOG_PATH="$WORKSPACE\\$BUILD_NUMBER\\jmeterLog.txt"
         def HTML_REPORT_PATH="$WORKSPACE\\$BUILD_NUMBER\\htmlReport"
 
-        bat "jmeter -Jthreads=5 -Jrampup-period=5 -Jloop-count=-1 -Jduration=1800 -Jjmeter.save.saveservice.output_format=csv -n -t ${SCRIPT_PATH} -l ${RESULT_PATH} -j ${LOG_PATH} -e -o ${HTML_REPORT_PATH}"
+        bat "jmeter -Jthreads=5 -Jrampup-period=5 -Jloop-count=-1 -Jduration=6000 -Jjmeter.save.saveservice.output_format=csv -n -t ${SCRIPT_PATH} -l ${RESULT_PATH} -j ${LOG_PATH} -e -o ${HTML_REPORT_PATH}"
     }
  
 
